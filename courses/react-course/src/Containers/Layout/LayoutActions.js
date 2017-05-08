@@ -1,18 +1,19 @@
-export default function getData() {
-    return {
-        type: 'FETCHING_DATA'
-    };
+export function getData() {
+  return {
+    type: 'FETCHING_DATA'
+  };
 }
 
-export default function getDataSuccess(data) {
-    return {
-        type: 'FETCHING_DATA_SUCCESS',
-        data
-    };
+export function getDataSuccess(payload) {
+  return {
+    type: 'FETCHING_DATA_SUCCESS',
+    payload
+  };
 }
 
-export default function getDataFailure() {
-    return {
-        type: 'FETCHING_DATA_FAILURE'
-    }
+export function getDataFailure(payload) {
+  return {
+    type: 'FETCHING_DATA_FAILURE',
+    payload
+  }
 }

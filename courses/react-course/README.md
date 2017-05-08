@@ -1,16 +1,15 @@
-This is react-course. You can find there code from practices.
+This template was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-## Based on?
+## What is it?
 
-- Create-react-app
+- React template for beginners
 - Consists of:
     - react
     - react-dom
-    - react-router v3.0.0
+    - react-router-dom v4.0.0
     - redux
     - redux-saga
     - redux-thunk
-    - classnames
     - redux-immutable-state-invariant
     - reset.css
 
